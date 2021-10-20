@@ -217,20 +217,21 @@ Para encontrar la solucion, separamos cada variable en cada miembro. Luego integ
 Se reslveran como homogeneas si se pueden llevar a la forma $y' = F(x,y) \rightarrow frac {dx} {dy} = F(x,y)$. El objetivo es poder llevarlas a varaiables seprables para poder resolverlas.
 
 Entonces, vamos a resolverla por sustitucion de variables:
+
 $$
 y = u.x
 $$
 
 $$
-frac {dy}{dx} = frac {du}{dx}.x + u
+frac {dy} {dx} = frac {du} {dx}.x + u
 $$
 
 #### EDO: Lineal
 
 Tienen la forma $y' + P(x).y = Q(x)$. Se resuelven realizando un cambio de variables:
+
 $$
 y = u.v \rightarrow y' = u'.v + u.v'
 $$
 
 Despejamos y planteamos que $v'+P(x).v$ es igual a 0.
-s
